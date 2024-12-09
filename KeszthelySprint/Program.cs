@@ -1,4 +1,6 @@
-﻿namespace KeszthelySprint
+﻿using System.Threading.Channels;
+
+namespace KeszthelySprint
 {
     internal class Program
     {
@@ -31,6 +33,10 @@
             Console.WriteLine($"4.feladat: Átlag életkor: {(össz_életkor / versenyzok.Count()):0.0} év");
 
             //Console.WriteLine($"4.feladat: Átlag életkor: {Math.Round(össz_életkor / versenyzok.Count,1):0.0} év");
+
+            //5.a
+            Console.Write($"5.feladat:Kérek egy kategoriát: ");
+            String Kategoria = Console.ReadLine();
         }
     }
 }
